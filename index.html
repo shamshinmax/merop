@@ -27,7 +27,16 @@
             <textarea id="post" name="post "style="max-width:400px; height:200px;"
             rows="10"
             name="text"
-            onblur="document.activeElement.blur();"
+            onblur="var field = document.createElement('input');
+            field.setAttribute('type', 'text');
+            document.body.appendChild(field);
+            
+            setTimeout(function() {
+                field.focus();
+                setTimeout(function() {
+                    field.setAttribute('style', 'display:none;');
+                }, 50);
+            }, 50);"
           ></textarea>
         </div>
         <div class="button-card" id="btn"><a class="a-card">Отправить</a></div>
