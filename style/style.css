@@ -28,6 +28,9 @@ p {
 
   
 }
+label{
+  font-size: 17px;
+}
 a {
   text-decoration: none;
   color: inherit;
@@ -41,12 +44,13 @@ a {
 }
 .card {
   padding: 85px 25px;
-  max-width: 350px;
+  max-width: 500px;
   margin: auto;
 
   border-radius: 10px;
   
 }
+
 .card-grid {
   display: grid;
   text-align: center;
@@ -74,5 +78,6 @@ a {
   
 }
 .time-card{
-  border-radius: 10px;
+  max-width: 150px;
+  margin: 0 auto;
 }
