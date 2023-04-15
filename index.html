@@ -13,18 +13,21 @@
     <div class="card">
       <div class="card-grid">
         <div class="text-card">Мероприятия (POST)</div>
-        <p>Время</p>
         <form class="time-card">
-          <label for="name">Name (4 to 8 characters):</label>
-            <input type="text" id="name" name="name" required
-             minlength="4" maxlength="8" size="10">
+            <label for="name">Количество мест</label>
+            <input id="mest" type="number">
         </form>
-        <div class="input-field col s12">
-          <p>Место</p>
-          <select style='width:170px' id="selection">
-            <option value="circ">Цирк</option>
-            <option value="templ">Темпл</option>
-          </select>
+        <label>Кратко</label>
+        <div class="input-field">
+        
+            <input type="text" width="100px" id="krat"class="input-krat">
+        </div>
+        <label for="name">Напишите пост</label>
+        <div class="input-post">
+            <textarea id="post" name="post "style="width:400px; height:200px;"
+            rows="10"
+            name="text"
+          ></textarea>
         </div>
         <div class="button-card" id="btn"><a class="a-card">Отправить</a></div>
       </div>
