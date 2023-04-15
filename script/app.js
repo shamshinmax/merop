@@ -9,5 +9,5 @@ btn.addEventListener("click", function(){
     let post = document.getElementById("post").value;
     if (mest != '' && krat != '' && post != '')
 
-        tg.sendData(mest+" "+krat+" "+post);
+        tg.sendData("2"+mest+" "+krat+" "+post);
 });
