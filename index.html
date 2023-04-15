@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/materialize.css">
+  <link rel="stylesheet" href="style/style.css">
+  <title>Random Coffee</title>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="card-grid">
+        <div class="text-card">Random Coffee☕️</div>
+        <p>Время</p>
+        <form class="time-card">
+          <input style='width:130px' type="time" id="startTime" />
+        </form>
+        <div class="input-field col s12">
+          <p>Место</p>
+          <select style='width:170px' id="selection">
+            <option value="circ">Цирк</option>
+            <option value="templ">Темпл</option>
+          </select>
+        </div>
+        <div class="button-card" id="btn"><a class="a-card">Отправить</a></div>
+      </div>
+    </div>
+  </div>
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script src="script/app.js"></script>
+  
+</body>
+</html>
