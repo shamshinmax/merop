@@ -9,7 +9,8 @@ btn2.addEventListener("click", function(){
     let mest = document.getElementById("mest").value;
     let krat = document.getElementById("krat").value;
     let post = document.getElementById("post").value;
-    if (mest != '' && krat != '' && post != '')
+    if (mest != '' && krat != '' && post != '') {
 
         tg.sendData("2"+mest+" "+krat+" "+post);
+    }
 });
