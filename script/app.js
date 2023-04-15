@@ -6,6 +6,7 @@ let btn2 = document.getElementById("btn");
 btn2.addEventListener("click", function(){
     document.activeElement.blur();
 });
+btn.addEventListener("click", function(){
     let mest = document.getElementById("mest").value;
     let krat = document.getElementById("krat").value;
     let post = document.getElementById("post").value;
