@@ -12,23 +12,20 @@
   <div class="container">
     <div class="card">
       <div class="card-grid">
-        <div class="text-card">Мероприятия (POST)</div>
+        <div class="text-card">Random Coffee☕️</div>
+        <p>Время</p>
+        <small id="now"></small>
         <form class="time-card">
-            <label for="name">Количество мест</label>
-            <input id="mest" type="number">
+          <input style='width:130px' type="time" id="startTime" required/>
+          <span class="validity"></span>
         </form>
-        <div class="button-card" id="btn2"><a class="a-card">Ок</a></div>
-        <label>Кратко</label>
-        <div class="input-field">
-        
-            <input type="text" max-width="100px" id="krat"class="input-krat">
-        </div>
-        <label for="name">Напишите пост</label>
-        <div class="input-post">
-            <textarea id="post" name="post "style="max-width:400px; height:200px;"
-            rows="10"
-            name="text"
-          ></textarea>
+        <div class="input-field col s12">
+          <p>Место</p>
+          <select style='width:170px' id="selection">
+            <option value="circ">Цирк🎪</option>
+            <option value="orl">Парк Орлёнок🍃</option>
+            <option value="prol">Пролетарий🏛️</option>
+          </select>
         </div>
         <div class="button-card" id="btn"><a class="a-card">Отправить</a></div>
       </div>
@@ -39,3 +36,4 @@
   
 </body>
 </html>
+
