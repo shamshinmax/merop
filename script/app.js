@@ -1,3 +1,6 @@
+let tg = window.Telegram.WebApp;
+tg.setBackgroundColor("#ffffff")
+
 var timing = document.getElementById("now")
 
 
