@@ -21,7 +21,7 @@ timing.innerHTML = 'Встречи назначаются только на те
 var time = times.value;
 times.addEventListener("input", () => {
    if (times.value < datas()){
-      time = 0
+      time = 0;
    }
    else {
       time = times.value;
@@ -33,7 +33,7 @@ btn.addEventListener("click", function(){
     if (time != 0){
           var place = document.getElementById("selection").value;
           var count = document.getElementById("count").value;
-          console.log('1'+time+" "+place+" "+count)
+          console.log('1'+time+" "+place+" "+count);
           tg.sendData('1'+time+" "+place+" "+count);
     }
 
