@@ -32,8 +32,9 @@ times.addEventListener("input", () => {
 btn.addEventListener("click", function(){
     if (time != 0){
           var place = document.getElementById("selection").value;
+          var count = document.getElementById("count").value;
           console.log(datas())
-          tg.sendData('1'+time+" "+place+" "+tg.colorScheme);
+          tg.sendData('1'+time+" "+place+" "+count);
     }
 
     
